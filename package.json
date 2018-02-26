@@ -1,0 +1,35 @@
+{
+  "name": "facebook-lead-ads",
+  "version": "1.0.0",
+  "description": "Facebook lead ads setup with webhook integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjjain/Facebook-Lead-Ads.git"
+  },
+  "keywords": [
+    "facebook",
+    "lead",
+    "ads",
+    "webhook",
+    "integration"
+  ],
+  "author": "Kamlesh Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjjain/Facebook-Lead-Ads/issues"
+  },
+  "homepage": "https://github.com/kjjain/Facebook-Lead-Ads#readme",
+  "dependencies": {
+    "fb": "^2.0.0",
+    "node-fetch": "^2.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "nodemon": "^1.15.1"
+  }
+}
